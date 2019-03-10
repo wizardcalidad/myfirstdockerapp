@@ -22,5 +22,6 @@ public class MyfirstdockerappApplication {
 	public String getMsg2() {
 		return "this is msg 2 for docker..";
 	}
+	
 
 }
