@@ -20,7 +20,7 @@ public class MyfirstdockerappApplication {
 
 	@GetMapping("/msg2")
 	public String getMsg2() {
-		return "this is msg 2 for docker...";
+		return "this is msg 2 for docker and hello...";
 	}
 	
 	
