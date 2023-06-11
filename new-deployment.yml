@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: flask-app
+  name: flask-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flask-app
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: flask-app
+    spec:
+      containers:
+      - image: wizardcalidad/flask-app:0.0.1.RELEASE
+        name: flask-app
+        resources: {}
+status: {}
