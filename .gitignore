@@ -24,3 +24,7 @@ HELP.md
 /nbdist/
 /.nb-gradle/
 /build/
+
+__pycache__
+__pycache__/
+.venv
